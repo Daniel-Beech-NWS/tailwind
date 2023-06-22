@@ -14,6 +14,13 @@ module.exports = {
       nwsfooter:{
         DEFAULT: '#363636'
       },
+      btngrey:{
+        DEFAULT: '#e6e6e6'
+      },
+
+
+
+  
     },
     fontFamily: { 
       'sans': ['Helvetica', 'Arial', 'sans-serif']
