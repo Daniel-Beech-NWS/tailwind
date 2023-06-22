@@ -11,6 +11,9 @@ module.exports = {
       nwshover:{
         DEFAULT: '#0744BE'
       },
+      nwsfooter:{
+        DEFAULT: '#363636'
+      },
     },
     fontFamily: { 
       'sans': ['Helvetica', 'Arial', 'sans-serif']

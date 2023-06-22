@@ -8,7 +8,7 @@
     <script src="js/main.js" defer></script>
   </head>
   <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
-    <header class="bg-nwsmain sticky top-0 z-10 text-white">
+    <header class="sticky top-0 z-10 bg-nwsmain text-white">
       <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
         <h1 class="text-3xl font-medium">
           <a href="#hero"> 🚀 Acme Rockets</a>
@@ -24,34 +24,32 @@
             ></div>
           </button>
           <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
-           
-            <ul class="flex flex-row ">
-                <li class="p-4 hover:bg-nwshover">
-            <a
-              href="#rockets"
-              class="font-sans text-sm font-semibold uppercase"
-            >
-              Our Rockets
-            </a>
-        </li>
-        <li class="p-4 hover:bg-nwshover">
-            <a
-              href="#testiomonals"
-              class="font-sans text-sm font-semibold uppercase text-center"
-            >
-              testiomonals
-            </a>
-        </li>
-        <li class="p-4 hover:bg-nwshover">
-            <a
-              href="#contact"
-              class="font-sans text-sm font-semibold uppercase "
-            >
-              Contact
-            </a>
-        </li>
-        </ul>
-
+            <ul class="flex flex-row">
+              <li class="p-4 hover:bg-nwshover">
+                <a
+                  href="#rockets"
+                  class="font-sans text-sm font-semibold uppercase"
+                >
+                  Our Rockets
+                </a>
+              </li>
+              <li class="p-4 hover:bg-nwshover">
+                <a
+                  href="#testiomonals"
+                  class="text-center font-sans text-sm font-semibold uppercase"
+                >
+                  testiomonals
+                </a>
+              </li>
+              <li class="p-4 hover:bg-nwshover">
+                <a
+                  href="#contact"
+                  class="font-sans text-sm font-semibold uppercase"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
           </nav>
         </div>
       </section>
@@ -310,11 +308,11 @@
       </section>
     </main>
 
-    <footer id="#footer" class="bg-nwsmain text-xl text-white">
+    <footer id="#footer" class="bg-nwsfooter text-xl text-white">
       <section
-        class="p4 mx-auto flex max-w-4xl flex-col sm:flex-row sm:justify-between"
+        class="p4 mx-auto flex flex-col sm:flex-row "
       >
-        <address>
+        <address class="mt-4 mr-4 basis-6/12 pl-12 pr-4">
           <h2>Acme Rocket-Powered Products, Inc.</h2>
           555 Astro Way<br />
           Fairfield, New Jersey 12345-5555<br />
@@ -323,15 +321,65 @@
           ><br />
           Phone: <a href="tel:+15555555555">(555) 555-5555</a>
         </address>
-        <nav class="hidden flex-col gap-2 md:flex" aria-label="footer">
+        <!-- <nav class="hidden flex-col gap-2 md:flex" aria-label="footer">
           <a href="#rockets" clas="hover:opacity-90">our rockets</a>
           <a href="#testiomonals" clas="hover:opacity-90">testo</a>
           <a href="#contact" clas="hover:opacity-90">contact</a>
-        </nav>
-        <div class="flex flex-col sm:gap-2">
+        </nav> -->
+
+        <div class="p-4 basis-3/12">
+<div>
+<h4  id="headers" class="py-4 pr-4 ttext-left">title</h4>
+<div class="content">
+<ul class="mt-4 mr-4">
+<li class="m-0 leading-4 text-sm capitalize">
+  <a href="#testiomonals" clas="hover:opacity-90">testo</a>   
+</li>
+<li class="m-0 leading-4 text-sm capitalize">
+  <a href="#rockets" clas="hover:opacity-90">our rockets</a>
+</li>
+<li class="m-0 leading-4 text-sm capitalize">
+  <a href="#contact" clas="hover:opacity-90">contact</a>
+</li>
+
+</ul>
+
+
+</div>
+</div>
+</div>
+<div class="p-4 basis-3/12">
+
+
+<div>
+  <h4  id="headers" class="py-4 pr-4 text-left">title</h4>
+  <div class="content">
+  <ul class="mt-4 mr-4">
+  <li class="m-0 leading-4 text-sm capitalize">
+    <a href="#testiomonals" clas="hover:opacity-90">testo</a>   
+  </li>
+  <li class="m-0 leading-4 text-sm capitalize">
+    <a href="#rockets" clas="hover:opacity-90">our rockets</a>
+  </li>
+  <li class="m-0 leading-4 text-sm capitalize">
+    <a href="#contact" clas="hover:opacity-90">contact</a>
+  </li>
+  
+  </ul>
+  
+  
+  </div>
+  
+  </div>
+
+
+
+        <!-- </div>
+
+        <div class="flex flex-col sm:gap-2 mt-4 mr-4">
           <p class="text-right">copyright &copy; <span id="year">2023</span></p>
           <p class="text-right">all rights</p>
-        </div>
+        </div> -->
       </section>
     </footer>
   </body>

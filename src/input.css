@@ -10,6 +10,11 @@
         min-height: calc(100vh - 68px)
     }
 
+
+    #headers{
+      border-bottom: 1px solid white;
+    }
+
     .toggle-btn {
       @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 
       [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 
