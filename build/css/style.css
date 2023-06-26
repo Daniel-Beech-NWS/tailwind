@@ -692,6 +692,18 @@ video {
   flex-basis: 50%;
 }
 
+.basis-3\/6 {
+  flex-basis: 50%;
+}
+
+.basis-2\/5 {
+  flex-basis: 40%;
+}
+
+.basis-1\/5 {
+  flex-basis: 20%;
+}
+
 .origin-top {
   transform-origin: top;
 }
@@ -794,10 +806,6 @@ video {
 
 .border {
   border-width: 1px;
-}
-
-.border-s {
-  border-inline-start-width: 1px;
 }
 
 .border-solid {
