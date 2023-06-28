@@ -636,12 +636,12 @@ video {
   height: 3.5rem;
 }
 
-.h-40 {
-  height: 10rem;
-}
-
 .h-8 {
   height: 2rem;
+}
+
+.h-\[150px\] {
+  height: 150px;
 }
 
 .h-\[616px\] {
@@ -650,14 +650,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[160\] {
-  height: 160;
-}
-
-.h-\[150px\] {
-  height: 150px;
 }
 
 .min-h-screen {
@@ -722,6 +714,10 @@ video {
 
 .max-w-xs {
   max-width: 20rem;
+}
+
+.max-w-sm {
+  max-width: 24rem;
 }
 
 .grow {
@@ -1372,14 +1368,6 @@ video {
 .hover\:bg-teal-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(13 148 136 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[url\(\'https\:\/\/cdn\.nwscdn\.com\/media\/wysiwyg\/metis\/dark-forza\.jpg\'\)\]:hover {
-  background-image: url('https://cdn.nwscdn.com/media/wysiwyg/metis/dark-forza.jpg');
-}
-
-.hover\:bg-\[url\(\'\/what_a_rush\.png\'\)\]:hover {
-  background-image: url('/what_a_rush.png');
 }
 
 .hover\:opacity-90:hover {
