@@ -15,6 +15,10 @@
       border-bottom: 1px solid white;
     }
 
+.nwsforza:hover{
+  background: url("https://cdn.nwscdn.com/media/wysiwyg/metis/dark-forza.jpg") no-repeat;
+}
+
     .toggle-btn {
       @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 
       [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 

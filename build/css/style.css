@@ -546,10 +546,6 @@ video {
   top: 1rem;
 }
 
-.top-\[30\%\] {
-  top: 30%;
-}
-
 .top-\[20\%\] {
   top: 20%;
 }
@@ -588,6 +584,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -602,14 +602,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 
 .block {
@@ -632,12 +624,20 @@ video {
   height: 0.25rem;
 }
 
+.h-1\/2 {
+  height: 50%;
+}
+
 .h-12 {
   height: 3rem;
 }
 
 .h-14 {
   height: 3.5rem;
+}
+
+.h-40 {
+  height: 10rem;
 }
 
 .h-8 {
@@ -648,20 +648,16 @@ video {
   height: 616px;
 }
 
-.h-\[586px\] {
-  height: 586px;
+.h-full {
+  height: 100%;
 }
 
-.h-1\/2 {
-  height: 50%;
+.h-\[160\] {
+  height: 160;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
-.h-40 {
-  height: 10rem;
+.h-\[150px\] {
+  height: 150px;
 }
 
 .min-h-screen {
@@ -670,6 +666,10 @@ video {
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-1\/3 {
+  width: 33.333333%;
 }
 
 .w-2\/3 {
@@ -692,12 +692,12 @@ video {
   width: 2rem;
 }
 
-.w-full {
-  width: 100%;
+.w-\[260px\] {
+  width: 260px;
 }
 
-.w-1\/3 {
-  width: 33.333333%;
+.w-full {
+  width: 100%;
 }
 
 .max-w-4xl {
@@ -1129,6 +1129,10 @@ video {
   border-bottom: 1px solid white;
 }
 
+.nwsforza:hover{
+  background: url("https://cdn.nwscdn.com/media/wysiwyg/metis/dark-forza.jpg") no-repeat;
+}
+
 .toggle-btn>div::after {
   --tw-translate-y: 0px;
   --tw-rotate: -45deg;
@@ -1368,6 +1372,14 @@ video {
 .hover\:bg-teal-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(13 148 136 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[url\(\'https\:\/\/cdn\.nwscdn\.com\/media\/wysiwyg\/metis\/dark-forza\.jpg\'\)\]:hover {
+  background-image: url('https://cdn.nwscdn.com/media/wysiwyg/metis/dark-forza.jpg');
+}
+
+.hover\:bg-\[url\(\'\/what_a_rush\.png\'\)\]:hover {
+  background-image: url('/what_a_rush.png');
 }
 
 .hover\:opacity-90:hover {
