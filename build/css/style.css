@@ -761,6 +761,10 @@ video {
   width: 100%;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
 .max-w-4xl {
   max-width: 56rem;
 }
@@ -892,6 +896,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -1423,6 +1431,21 @@ video {
   right: 0px;
 }
 
+.after\:top-\[20\%\]::after {
+  content: var(--tw-content);
+  top: 20%;
+}
+
+.after\:right-\[5\%\]::after {
+  content: var(--tw-content);
+  right: 5%;
+}
+
+.after\:block::after {
+  content: var(--tw-content);
+  display: block;
+}
+
 .after\:h-1::after {
   content: var(--tw-content);
   height: 0.25rem;
@@ -1431,6 +1454,11 @@ video {
 .after\:w-8::after {
   content: var(--tw-content);
   width: 2rem;
+}
+
+.after\:w-full::after {
+  content: var(--tw-content);
+  width: 100%;
 }
 
 .after\:-translate-x-2::after {
@@ -1473,6 +1501,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.after\:text-right::after {
+  content: var(--tw-content);
+  text-align: right;
+}
+
 .after\:font-serif::after {
   content: var(--tw-content);
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
@@ -1509,6 +1542,31 @@ video {
 
 .after\:content-\[\'\\201D\'\]::after {
   --tw-content: '\201D';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'Hello_World\'\]::after {
+  --tw-content: 'Hello World';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'a\'\]::after {
+  --tw-content: 'a';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\&\#8592\'\]::after {
+  --tw-content: '&#8592';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\#8592\'\]::after {
+  --tw-content: '#8592';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\\25BA\'\]::after {
+  --tw-content: '\25BA';
   content: var(--tw-content);
 }
 
