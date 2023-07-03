@@ -27,8 +27,11 @@
 }
 
 .sample-slider{
-  width:70%;
+  width:700px;
 }
 .sample-slider img{
   width: 100%;
+}
+.sample-slider .swiper-wrapper{
+  transition-timing-function: linear;
 }

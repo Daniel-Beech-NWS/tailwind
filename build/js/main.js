@@ -17,9 +17,7 @@ document.addEventListener('DOMContentLoaded', initApp)
 
 const swiper = new Swiper('.sample-slider', {
     loop: true, 
-    autoplay: {     //add
-        delay: 2000,   //add
-        speed: 9000, 
-    },        
+    slidesPerView: 4,
+       
 })
 
