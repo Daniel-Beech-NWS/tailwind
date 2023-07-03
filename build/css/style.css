@@ -717,6 +717,14 @@ video {
   height: 100%;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -763,6 +771,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[133px\] {
+  width: 133px;
+}
+
+.\!w-\[133px\] {
+  width: 133px !important;
 }
 
 .max-w-4xl {
@@ -1307,6 +1323,14 @@ video {
   background-color: transparent;
 }
 
+.sample-slider{
+  width:70%;
+}
+
+.sample-slider img{
+  width: 100%;
+}
+
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
@@ -1695,4 +1719,3 @@ video {
     min-height: calc(100vh - 68px)
   }
 }
-
