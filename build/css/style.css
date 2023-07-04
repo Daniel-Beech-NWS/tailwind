@@ -734,6 +734,10 @@ video {
   width: 700px !important;
 }
 
+.\!w-\[900px\] {
+  width: 900px !important;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -776,14 +780,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.\!w-\[1200px\] {
-  width: 1200px !important;
-}
-
-.\!w-\[900px\] {
-  width: 900px !important;
 }
 
 .max-w-4xl {
