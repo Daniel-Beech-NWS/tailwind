@@ -35,3 +35,8 @@
 .sample-slider .swiper-wrapper{
   transition-timing-function: linear;
 }
+
+.sportshome{
+  min-width: calc((100% - (3.125rem*2))/3);
+  max-width: calc((100% - (3.125rem*2))/3);
+}

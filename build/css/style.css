@@ -1336,6 +1336,11 @@ video {
   transition-timing-function: linear;
 }
 
+.sportshome{
+  min-width: calc((100% - (3.125rem*2))/3);
+  max-width: calc((100% - (3.125rem*2))/3);
+}
+
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
@@ -1710,6 +1715,24 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .md\:basis-\[23\.5\%\] {
+    flex-basis: 23.5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-\[366\.66px\] {
+    width: 366.66px;
+  }
+
+  .lg\:basis-\[24\.5\%\] {
+    flex-basis: 24.5%;
   }
 }
 

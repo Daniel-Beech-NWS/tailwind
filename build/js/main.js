@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', initApp)
 
 
 const swiper = new Swiper('.sample-slider',  {
-        slidesPerView: 1,
+        slidesPerView: 4,
         spaceBetween: 10,
 
         breakpoints: {
