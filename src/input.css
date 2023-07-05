@@ -24,19 +24,32 @@
       [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 
       [&>div]:bg-transparent [&>div]:rotate-[720deg]
   }
-}
 
-.sample-slider{
-  width:700px;
-}
-.sample-slider img{
-  width: 100%;
-}
-.sample-slider .swiper-wrapper{
-  transition-timing-function: linear;
-}
+
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
 
 .sportshome{
   min-width: calc((100% - (3.125rem*2))/3);
   max-width: calc((100% - (3.125rem*2))/3);
+}
+
 }
