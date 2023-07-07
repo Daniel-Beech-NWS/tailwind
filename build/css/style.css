@@ -702,10 +702,6 @@ video {
   display: inline-flex;
 }
 
-.grid {
-  display: grid;
-}
-
 .hidden {
   display: none;
 }
@@ -1145,6 +1141,14 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .text-left {
@@ -1882,6 +1886,10 @@ video {
     padding-left: 3rem;
   }
 
+  .lg\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -1890,6 +1898,10 @@ video {
 @media (min-width: 1280px) {
   .xl\:py-16 {
     padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .xl\:pb-16 {
     padding-bottom: 4rem;
   }
 }
