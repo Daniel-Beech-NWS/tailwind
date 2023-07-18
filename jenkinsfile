@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+      triggers {
+    githubPush()
+  }
+tools {nodejs "Node"}
+    
+    stages{
+        
+        stage("scm"){
+            
+            steps {
+                
+               build job: "acme", wait: true
+            }
+        }
+     
+                stage("hello"){
+            
+            steps {
+                
+                echo "hello world"
+            }
+        }
+
+
+    }
+}
