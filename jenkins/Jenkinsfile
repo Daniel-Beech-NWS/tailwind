@@ -14,6 +14,14 @@ tools {nodejs "Node"}
                build job: "acme", wait: true
             }
         }
+
+                stage("test"){
+            
+            steps {
+                
+               build job: "acme-tests", wait: true
+            }
+        }
      
                 stage("hello"){
             
