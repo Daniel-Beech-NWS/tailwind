@@ -52,6 +52,14 @@ tools {nodejs "Node"}
             }
         }
 
+                                stage("deploy"){
+            
+            steps {
+                sh'cURL -X GET https://api.render.com/deploy/srv-ci9dsf18g3ne2eie5ai0?key=CXp3Ik7H4r4'
+
+            }
+        }
+
 
     }
 }
