@@ -1,8 +1,10 @@
 pipeline {
     agent any
-    enviroment{
-        SCANNER_HOME = tool 'sonarqube-scanner'
+
+    environment {
+        SCANNER_HOME=tool 'sonar-scanner'
     }
+
       triggers {
     githubPush()
   }
