@@ -44,7 +44,7 @@ tools {nodejs "Node"}
             
             steps {
                 
-                withSonarQubeEnv('sonar-server') {
+                withSonarQubeEnv('sonarqube-scanner') {
                     sh ''' $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=test \
                     -Dsonar.java.binaries=. \
                     -Dsonar.projectKey=test '''
