@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    enviroment{
+        SCANNER_HOME = tool 'sonarqube-scanner'
+    }
       triggers {
     githubPush()
   }
@@ -28,6 +31,18 @@ tools {nodejs "Node"}
             steps {
                 
                 echo "hello world"
+            }
+        }
+
+                        stage("sonar"){
+            
+            steps {
+                
+                withSonarQubeEnv('sonar-server') {
+                    sh ''' $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=test \
+                    -Dsonar.java.binaries=. \
+                    -Dsonar.projectKey=test '''
+}
             }
         }
 
