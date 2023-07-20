@@ -1,14 +1,18 @@
 pipeline {
     agent any
 
-    environment {
-        SCANNER_HOME=tool 'sonar-scanner'
-    }
-
       triggers {
     githubPush()
   }
+
+
+
 tools {nodejs "Node"}
+
+
+      environment {
+        SCANNER_HOME=tool 'sonar-scanner'
+    }
     
     stages{
         
