@@ -52,4 +52,8 @@
   max-width: calc((100% - (3.125rem*2))/3);
 }
 
+.max-h-0 {
+  max-height: 0;
+}
+
 }
