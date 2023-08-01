@@ -45,3 +45,35 @@ const swiper = new Swiper('.sample-slider',  {
           }
         }
       })
+
+      const swipers = new Swiper('.sample-sliders',  {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        observer: true,
+        observeParents: true,
+        loop: true,
+        rebuildOnUpdate: true,
+
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 1,
+           
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 1,
+         
+          },
+          1024: {
+            slidesPerView: 4,
+      
+          }
+        }
+      })
+
