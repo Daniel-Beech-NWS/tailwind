@@ -742,6 +742,10 @@ video {
   height: 150px;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -1158,6 +1162,18 @@ video {
   --tw-bg-opacity: 0.7;
 }
 
+.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
+  background-image: url('/img/hero-pattern.svg');
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'https\:\/\/cdn\.nwscdn\.com\/media\/wysiwyg\/metis\/dark-forza\.jpg\'\)\] {
+  background-image: url('https://cdn.nwscdn.com/media/wysiwyg/metis/dark-forza.jpg');
+}
+
 .fill-current {
   fill: currentColor;
 }
@@ -1552,6 +1568,12 @@ video {
   max-height: 0;
 }
 
+.brandban{
+  @media only screen and (max-width: 600px){
+    background-image: url("https://cdn.nwscdn.com/media/wysiwyg/metis/dark-forza.jpg")
+  }
+}
+
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
@@ -1810,11 +1832,6 @@ video {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
-.hover\:text-black:hover {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1960,12 +1977,25 @@ video {
     display: none;
   }
 
+  .md\:h-\[150px\] {
+    height: 150px;
+  }
+
   .md\:max-h-32 {
     max-height: 8rem;
   }
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:bg-none {
+    background-image: none;
+  }
+
+  .md\:text-black {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
   }
 
   .md\:sportshome{

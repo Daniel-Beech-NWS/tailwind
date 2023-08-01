@@ -56,4 +56,10 @@
   max-height: 0;
 }
 
+.brandban{
+  @media only screen and (max-width: 600px){
+  background-image: url("https://cdn.nwscdn.com/media/wysiwyg/metis/dark-forza.jpg")
+  }
+}
+
 }
