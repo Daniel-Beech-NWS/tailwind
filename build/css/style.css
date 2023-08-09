@@ -1162,14 +1162,6 @@ video {
   --tw-bg-opacity: 0.7;
 }
 
-.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
-  background-image: url('/img/hero-pattern.svg');
-}
-
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
-
 .bg-\[url\(\'https\:\/\/cdn\.nwscdn\.com\/media\/wysiwyg\/metis\/dark-forza\.jpg\'\)\] {
   background-image: url('https://cdn.nwscdn.com/media/wysiwyg/metis/dark-forza.jpg');
 }
@@ -1566,12 +1558,6 @@ video {
 
 .max-h-0 {
   max-height: 0;
-}
-
-.brandban{
-  @media only screen and (max-width: 600px){
-    background-image: url("https://cdn.nwscdn.com/media/wysiwyg/metis/dark-forza.jpg")
-  }
 }
 
 .before\:absolute::before {
