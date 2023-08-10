@@ -742,8 +742,8 @@ video {
   height: 150px;
 }
 
-.h-\[300px\] {
-  height: 300px;
+.h-\[330px\] {
+  height: 330px;
 }
 
 .h-full {
@@ -884,6 +884,14 @@ video {
 
 .basis-full {
   flex-basis: 100%;
+}
+
+.basis-\[14\.2857143\%\] {
+  flex-basis: 14.2857143%;
+}
+
+.basis-\[45\%\] {
+  flex-basis: 45%;
 }
 
 .origin-top {
