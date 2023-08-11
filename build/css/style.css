@@ -882,16 +882,12 @@ video {
   flex-basis: 50%;
 }
 
-.basis-full {
-  flex-basis: 100%;
-}
-
-.basis-\[14\.2857143\%\] {
-  flex-basis: 14.2857143%;
-}
-
 .basis-\[45\%\] {
   flex-basis: 45%;
+}
+
+.basis-full {
+  flex-basis: 100%;
 }
 
 .origin-top {

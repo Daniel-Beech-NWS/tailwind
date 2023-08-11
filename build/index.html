@@ -53,7 +53,7 @@
           
           
           <div class="hidden md:flex basis-1/3 ">
-            <input class="block h-12 border-solid bg-btngrey"   name="email" type="email" id="newsletter" placeholder="algolia search" data-validate="{required:true, 'validate-email':true}">
+            <input class="block h-12 border-solid text-black bg-btngrey"   name="email" type="email" id="newsletter" placeholder="algolia search" data-validate="{required:true, 'validate-email':true}">
             <!-- <p class="text-black">
               search
             </p> -->
@@ -69,7 +69,60 @@
 </li>
 
 <li class="pr-4 text-xs">
-  <a href="https://www.networldsports.ng/customer/account/create/" id="idPz0Y7HDw">Register</a></li></ul>
+  <div x-data="{ resourcesMenuf: false }" x-on:mousedown="resourcesMenuf = !resourcesMenuf" x-on:mouseleave="resourcesMenuf = !resourcesMenuf">
+    
+  <p  class="md:hidden color-black">search </p>
+  <div x-show="resourcesMenuf" x-transition:enter="transition ease-out duration-200"
+  x-transition:enter-start="opacity-0 -translate-y-1" x-transition:enter-end="opacity-100 translate-y-0"
+   x-transition:leave="transition ease-in duration-75" x-transition:leave-start="opacity-100 translate-y-0" 
+   x-transition:leave-end="opacity-0 -translate-y-1" class="absolute inset-x-0 transform shadow-lg -mt-1 z-10 !top-[135px]">
+   <div class="bg-white !text-black">
+     <div class="max-w-7xl mx-auto  gap-y-6 px-4 pb-6 sm:grid-cols-2 sm:gap-8 sm:px-6 sm:py-8 lg:grid-cols-4 lg:px-8 lg:pb-12 xl:pb-16 flex flex-row justify-between">
+       <div>
+         <ul>
+           <li>
+            <div class="">
+              <input class="block h-12 border-solid text-black bg-btngrey"   name="email" type="email" id="newsletter" placeholder="algolia search" data-validate="{required:true, 'validate-email':true}">
+              <!-- <p class="text-black">
+                search
+              </p> -->
+            </div>
+             <p class="text-black mb-4 pb-3 text-left">search</p>
+           </li>
+
+           <li>
+             <p class="text-black text-sm	 text-left">practice  mats</p>
+           </li>
+
+
+           <li>
+             <p class="text-black text-sm	 text-left">home golf mats</p>
+           </li>
+
+
+           <li>
+             <p class="text-black text-sm	text-left">driving range mats</p>
+           </li>
+         </ul>
+
+       </div>
+       <div>
+         <ul>
+           <li>
+             <p class="text-black mb-4 pb-3 text-left">golf nets</p>
+           </li>
+        
+           <li>
+             <p class="text-black text-sm	 text-left">garden gold nets</p>
+           </li>
+
+         </ul>
+         </div>
+       <div>
+  </div>
+  <a  class="hidden md:block"href="https://www.networldsports.ng/customer/account/create/" id="idPz0Y7HDw">Register</a></li></ul>
+  
+
           </div>
         </div>
         </div>
@@ -1532,8 +1585,8 @@ all sports
 
 <div class="p-4 basis-full lg:pl-12" x-data="{selected:1}" >
   <div>
-    <h4  id="headers" class="py-4 pr-4 text-left"   >title</h4>
-    <div class="columns-2 mt-4">
+    <h4  class="py-4 pr-4 text-left" id="headers"class="py-4 pr-4 text-left" @click="selected !== 5 ? selected = 5 : selected = null">title</h4>
+    <div class="columns-2 mt-4 content relative overflow-hidden transition-all max-h-0 duration-700 md:max-h-32" x-ref="container1" x-bind:style="selected == 5 ? 'max-height: 55px' : ''">
       <ul class="relative" >
         <li class="m-0 leading-4 text-sm capitalize">
       <a href="#testiomonals" clas="hover:opacity-90">testo</a>   
