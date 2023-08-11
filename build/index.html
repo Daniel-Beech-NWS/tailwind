@@ -72,7 +72,7 @@
 </li>
 
 <li class="pr-4 text-xs">
-  <div x-data="{ resourcesMenuf: false }" x-on:mousedown="resourcesMenuf = !resourcesMenuf" x-on:mouseleave="resourcesMenuf = !resourcesMenuf">
+  <div x-data="{ resourcesMenuf: false }" x-on:mousedown="resourcesMenuf = !resourcesMenuf" x-on:mousedown="resourcesMenuf = !resourcesMenuf">
     
   <p  class="md:hidden color-black">search </p>
   <div x-show="resourcesMenuf" x-transition:enter="transition ease-out duration-200"
@@ -1570,10 +1570,10 @@ all sports
   </div>
 
 
-<div class="p-4 basis-full lg:pl-12" x-data="{selected:1}" >
+<div class="p-4 basis-full lg:pl-12" x-data="{selected:2}" >
   <div>
     <h4  class="py-4 pr-4 text-left" id="headers"class="py-4 pr-4 text-left" @click="selected !== 9 ? selected = 9 : selected = null">title</h4>
-    <div class="columns-2 mt-4 content relative overflow-hidden transition-all max-h-0 duration-700 md:max-h-32" x-ref="container1" x-bind:style="selected == 9 ? 'max-height: 55px' : ''">
+    <div class="columns-2 mt-4 content relative overflow-hidden transition-all max-h-0 duration-700 md:max-h-32" x-ref="container2" x-bind:style="selected == 9 ? 'max-height: 55px' : ''">
       <ul class="relative" >
         <li class="m-0 leading-4 text-sm capitalize">
       <a href="#testiomonals" clas="hover:opacity-90">testo</a>   
