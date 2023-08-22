@@ -710,6 +710,10 @@ video {
   display: flex;
 }
 
+.\!flex {
+  display: flex !important;
+}
+
 .inline-flex {
   display: inline-flex;
 }
@@ -816,6 +820,22 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.\!w-\[370px\] {
+  width: 370px !important;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[35\%\] {
+  width: 35%;
+}
+
+.\!w-\[380px\] {
+  width: 380px !important;
 }
 
 .max-w-4xl {
@@ -1973,6 +1993,14 @@ video {
 
   .md\:max-h-32 {
     max-height: 8rem;
+  }
+
+  .md\:\!w-\[133px\] {
+    width: 133px !important;
+  }
+
+  .md\:max-w-sm {
+    max-width: 24rem;
   }
 
   .md\:flex-row {
